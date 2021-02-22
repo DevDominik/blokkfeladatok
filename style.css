@@ -1,0 +1,92 @@
+/*Első feladat*/
+
+p#feladat1 {
+    padding: 4mm;
+    border: 2px solid blue;
+    width: 45%;
+}
+
+p#feladat1 span {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: orange;
+    float: inline-start;
+}
+
+/*Második feladat*/
+
+div.feladat2#kulso {
+    background-color: red;
+    width: 12cm;
+    height: 12cm;
+    position: absolute;
+    text-indent: 38%;
+}
+
+div.feladat2#kozepso {
+    background-color: green;
+    width: 8cm;
+    height: 8cm;
+    position: absolute;
+    left: 2cm;
+    bottom: 4cm;
+    text-indent: 38%;
+}
+
+div.feladat2#belso {
+    background-color: blue;
+    width: 4cm;
+    height: 4cm;
+    position: absolute;
+    left: 4cm;
+    bottom: 6cm;
+    text-indent: 25%;
+}
+
+/*Harmadik feladat*/
+
+p.feladat3 {
+    background-color: darksalmon;
+    width: 21%;
+    position: fixed;
+    text-align: justify;
+    border: 5px solid darksalmon;
+}
+
+p.feladat3::first-letter {
+    font-size: 180%;
+    color: red;
+    font-weight: bolder;
+}
+
+p.feladat3#elso {
+    left: 13cm;
+}
+
+p.feladat3#masodik {
+    left: 22cm;
+}
+
+p.feladat3#harmadik {
+    left: 31cm;
+}
+
+/*Negyedik feladat*/
+
+ul#feladat4 {
+    width: 40%;
+    height: 3cm;
+    border: 20px dotted green;
+    position: fixed;
+    list-style: none;
+    left: 20cm;
+    top: 1cm;
+}
+
+ul#feladat4 li {
+    background-color: lightseagreen;
+    height: 1mm;
+    padding: 3mm;
+    width: 2cm;
+}
